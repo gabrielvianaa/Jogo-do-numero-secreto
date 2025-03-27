@@ -25,7 +25,7 @@ function limparCampo(){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Tente adivinhar o número secreto que está entre 0 e 10');
+    exibirTextoNaTela('p', `Tente adivinhar o número secreto que está entre 0 e ${numeroLimite}`);
 
 }
 
@@ -33,7 +33,7 @@ exibirMensagemInicial();
 
 
 
-//Função responsável por alterar os textos na tela web.
+//Funç${numeroLimite} responsável por alterar os textos na tela web.
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag)
     campo.innerHTML = texto;
