@@ -1,5 +1,5 @@
 let listaNumeroSorteados = [];
-let numeroLimite = 50
+let numeroLimite = 100
 
 //Função para gerar o número aleatório.
 function gerarNumeroAleatorio(){
